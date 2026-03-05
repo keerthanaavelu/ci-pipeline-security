@@ -1,0 +1,29 @@
+{
+  "name": "ci-pipeline-security",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start": "node app.js",
+    "test": "jest"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/keerthanaavelu/ci-pipeline-security.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/keerthanaavelu/ci-pipeline-security/issues"
+  },
+  "homepage": "https://github.com/keerthanaavelu/ci-pipeline-security#readme",
+  "dependencies": {
+    "express": "^5.2.1"
+  },
+  "devDependencies": {
+    "eslint": "^10.0.2",
+    "jest": "^29.7.0",
+    "supertest": "^7.2.2"
+  }
+}
