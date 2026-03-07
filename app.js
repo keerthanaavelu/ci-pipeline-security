@@ -1,6 +1,6 @@
 const express = require("express");
 const app = express();
-const password="abscdouhn"
+const password="abscdouhn";
 app.get("/",(req,res)=>{
     res.status(200).json({
     message: "Hi world"
